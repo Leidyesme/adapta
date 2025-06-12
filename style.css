@@ -1,0 +1,181 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: antiquewhite;
+}
+nav a{
+  font-size: 40px;
+  text-decoration: none;
+  color: brown;
+  font-weight: bold;
+  font-style: italic;
+  margin: 100px;
+  text-align: center;
+}
+.menu{
+  background-color: rgb(177, 202, 250);
+  width: 100%;
+  position: fixed;
+  top:0
+}
+.cont{
+  margin-top: 43px;
+}
+.menuico{
+  display: none;
+}
+h1{
+  color: rgb(19, 104, 107);
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+  background-color: rgb(242, 195, 77);
+  font-style: italic;
+}
+.ini p{
+  width: 850px;
+  margin-left: 20px;
+  margin-bottom: 25px;
+
+}
+.text{
+  display: inline-block;
+  width: 48%;
+  vertical-align: top;
+  margin-top: 180px;
+}
+.ini img{
+  width: 48%;
+}
+img{ 
+  margin: 20px 22px;
+  display: inline-block;
+  border-radius: 20px;
+}
+p{
+  font-size: 25px;
+  background-color: rgb(220, 231, 255);
+  text-align: center;
+  width: 900px;
+  margin-left: 45px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  padding: 6px;
+}
+h2{
+  font-size: 50px;
+  color: rgb(107, 66, 182);
+  text-align: center;
+}
+.univ{
+  display: inline-block;
+  width: 49%;
+}
+.unim{
+  display: inline-block;
+  width: 49%;
+}
+.univ img{
+  margin-left: 220px;
+}
+.unim img{
+  margin-left: 220px;
+}
+
+
+@media (max-width:767px){
+  body{
+    background-color: peru;
+  }
+  .menu{
+    display: none;
+  }
+  .menuico{
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 10px;
+    color: rgb(19, 104, 107);
+  }
+  i{
+    margin-left: 95px;
+  }
+   /* .fa-house{
+    
+    font-size: 40px;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-left: 65px;
+  }
+  .fa-bars{
+    color: rgb(19, 104, 107);
+    font-size: 40px;
+    margin-right: 10%;
+    margin-top: 10px;
+  }
+  .fa-spinner{
+    color: rgb(19, 104, 107);
+    font-size: 40px;
+    margin-right: 10%;
+    margin-top: 10px;
+  }
+  .fa-gear{
+    color: rgb(19, 104, 107);
+    font-size: 40px;
+    margin-right: 10%;
+    margin-top: 10px;
+  }
+  .fa-people-group{
+    color: rgb(19, 104, 107);
+    font-size: 40px;
+    margin-top: 10px;
+  }  */
+  .cont{
+    margin-top: 10px;
+  }
+  img{
+    margin:0;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 280px;
+  }
+  .ini p{
+    width: 360px;
+    font-size: 15px;
+    /* margin-left: 1px;
+    margin-bottom: 10px; */
+    margin: 5px 10px;
+  }
+  .text{
+    margin-top: 10px;
+  }
+  .univ{
+    display: block;
+    width: 100%;
+  }
+   .univ img{
+    margin-left: 18%; 
+  }
+  .univ p{
+    margin-left: 2%;
+    width: 95%;
+    margin-top:10px
+  }
+  .unim{
+    display: block;
+    width: 100%;
+  }
+  .unim img{
+    margin-left: 18%;
+  }
+  .unim p{
+    margin-left: 2%;
+    width: 95%;
+    margin-top: 10px;
+  }
+
+
+}
+
