@@ -3,9 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* Se le asigna un color al body */
 body{
   background-color: antiquewhite;
 }
+/* A la barra de navegación le agregamos ciertos estilos como lo son el tamaño de la letra, eliminar la línea de link y el color de la letra para que sea brown  */
 nav a{
   font-size: 40px;
   text-decoration: none;
@@ -15,18 +17,25 @@ nav a{
   margin: 100px;
   text-align: center;
 }
+/* A la clase menu le asignamos estilos de color de fondo, el tamaño del ancho que será del 100% co pisición fixed y top 0 lo que nos permite fijar la barra en la parte superior sin que quede separada de esta */
+/* Esta clase es la que contiene todos los elementos de la barra de navegación */
 .menu{
   background-color: rgb(177, 202, 250);
   width: 100%;
   position: fixed;
   top:0
 }
+/* A la clase cont le asignamos un margin-top para que se separe de la parte superior 43  pixeles */
+/* La clase cont tiene todo el contenido de la landing page a excepción de la barra de navegación */
 .cont{
   margin-top: 43px;
 }
+/* A la clase menuico le aplicamos un display: none lo que hace que este menú no sea visible y no ocupe un espacio en la pagina */
+/* Esta clase contiene la misma barra de navegación pero con iconos para la versión movil */
 .menuico{
   display: none;
 }
+/* El h1 es el titulo de la pagina web a lo cual se le aplicará ciertos estilos */
 h1{
   color: rgb(19, 104, 107);
   text-align: center;
@@ -35,26 +44,32 @@ h1{
   background-color: rgb(242, 195, 77);
   font-style: italic;
 }
+/* Los elementos p de la clase ini le aplicaremos width para el ancho que tendra y los amrgin para separarlo de la izquierda y abajo */
+/* Los elementos p son los parrafos dentro de la primera sección que es como la presentación de nuestra página */
 .ini p{
   width: 850px;
   margin-left: 20px;
   margin-bottom: 25px;
-
 }
+/* A l clase text le asignamos estilo como un display : inline-block para permitir que este se comporte en bloque */
+/* La clase text contiene dos parrafos de la primera sección */
 .text{
   display: inline-block;
   width: 48%;
   vertical-align: top;
   margin-top: 180px;
 }
+/* Los elementos dentro de la clase ini con elementos de tipo img, es decir imagenes a los cuales les definiremos que tengan un ancho de 48% */
 .ini img{
   width: 48%;
 }
+/* Todos los elementos de tipo img se les asignará un margen, el display para que se comporte como un bloque y un border radious */
 img{ 
   margin: 20px 22px;
   display: inline-block;
   border-radius: 20px;
 }
+/* Todos los elementos p es decir los parrafos contarán con las caracteristicas de una letra en tamaño de 25 px, un color de fondo, un respectivo margin */
 p{
   font-size: 25px;
   background-color: rgb(220, 231, 255);
@@ -65,6 +80,8 @@ p{
   border-radius: 20px;
   padding: 6px;
 }
+/* Todos los h2 son los subtitulos que en este caso serían los texts de vision y mision */
+/*  */
 h2{
   font-size: 50px;
   color: rgb(107, 66, 182);
