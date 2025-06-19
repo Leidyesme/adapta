@@ -74,8 +74,8 @@ p{
   font-size: 25px;
   background-color: rgb(220, 231, 255);
   text-align: center;
-  width: 900px;
-  margin-left: 45px;
+  /* width: 900px; */
+  /* margin-left: 45px; */
   margin-bottom: 20px;
   border-radius: 20px;
   padding: 6px;
@@ -119,54 +119,29 @@ h2{
   i{
     margin-left: 95px;
   }
-   /* .fa-house{
-    
-    font-size: 40px;
-    margin-right: 10%;
-    margin-top: 10px;
-    margin-left: 65px;
-  }
-  .fa-bars{
-    color: rgb(19, 104, 107);
-    font-size: 40px;
-    margin-right: 10%;
-    margin-top: 10px;
-  }
-  .fa-spinner{
-    color: rgb(19, 104, 107);
-    font-size: 40px;
-    margin-right: 10%;
-    margin-top: 10px;
-  }
-  .fa-gear{
-    color: rgb(19, 104, 107);
-    font-size: 40px;
-    margin-right: 10%;
-    margin-top: 10px;
-  }
-  .fa-people-group{
-    color: rgb(19, 104, 107);
-    font-size: 40px;
-    margin-top: 10px;
-  }  */
   .cont{
     margin-top: 10px;
   }
   img{
-    margin:0;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin:10px auto;
+    /* margin-top: 10px;
+    margin-left: 10px; */
     height: 280px;
+    display: block;
+
   }
   .ini p{
-    width: 360px;
+    /* width: 360px; */
     font-size: 15px;
     /* margin-left: 1px;
     margin-bottom: 10px; */
-    margin: 5px 10px;
+    /* margin: 5px 10px; */
   }
   .text{
     margin-top: 10px;
+    display: block;
+    margin: 0 auto;
+    width: 100px;
   }
   .univ{
     display: block;
