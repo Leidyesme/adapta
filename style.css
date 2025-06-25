@@ -14,7 +14,7 @@ nav a{
   color: brown;
   font-weight: bold;
   font-style: italic;
-  margin: 100px;
+  margin: 46px;
   text-align: center;
 }
 /* A la clase menu le asignamos estilos de color de fondo, el tamaño del ancho que será del 100% co pisición fixed y top 0 lo que nos permite fijar la barra en la parte superior sin que quede separada de esta */
@@ -46,26 +46,27 @@ h1{
 }
 /* Los elementos p de la clase ini le aplicaremos width para el ancho que tendra y los amrgin para separarlo de la izquierda y abajo */
 /* Los elementos p son los parrafos dentro de la primera sección que es como la presentación de nuestra página */
-.ini p{
+/* .ini p{
   width: 850px;
   margin-left: 20px;
   margin-bottom: 25px;
-}
+} */
 /* A l clase text le asignamos estilo como un display : inline-block para permitir que este se comporte en bloque */
 /* La clase text contiene dos parrafos de la primera sección */
 .text{
   display: inline-block;
   width: 48%;
   vertical-align: top;
-  margin-top: 180px;
+  margin-top: 30px;
 }
 /* Los elementos dentro de la clase ini con elementos de tipo img, es decir imagenes a los cuales les definiremos que tengan un ancho de 48% */
-.ini img{
+/* .ini img{
   width: 48%;
-}
+} */
 /* Todos los elementos de tipo img se les asignará un margen, el display para que se comporte como un bloque y un border radious */
 img{ 
-  margin: 20px 22px;
+  margin: 20px 20px;
+  margin-right: 10px;
   display: inline-block;
   border-radius: 20px;
 }
@@ -96,10 +97,10 @@ h2{
   width: 49%;
 }
 .univ img{
-  margin-left: 220px;
+  margin-left: 12%;
 }
 .unim img{
-  margin-left: 220px;
+  margin-left: 12%;
 }
 
 
@@ -121,18 +122,19 @@ h2{
   }
   .cont{
     margin-top: 10px;
+    /* width: 100%; */
   }
   img{
-    margin:10px auto;
+    margin:10px 35px;
     /* margin-top: 10px;
     margin-left: 10px; */
-    height: 280px;
+    /* height: 280px; */
     display: block;
 
   }
   .ini p{
     /* width: 360px; */
-    font-size: 15px;
+    font-size: 19px;
     /* margin-left: 1px;
     margin-bottom: 10px; */
     /* margin: 5px 10px; */
@@ -140,19 +142,19 @@ h2{
   .text{
     margin-top: 10px;
     display: block;
-    margin: 0 auto;
-    width: 100px;
+    margin: 0 15px;
+    width: 650px;
   }
   .univ{
     display: block;
     width: 100%;
   }
    .univ img{
-    margin-left: 18%; 
+    margin-left: 16%; 
   }
   .univ p{
     margin-left: 2%;
-    width: 95%;
+    width: 650px;
     margin-top:10px
   }
   .unim{
@@ -160,11 +162,11 @@ h2{
     width: 100%;
   }
   .unim img{
-    margin-left: 18%;
+    margin-left: 16%;
   }
   .unim p{
     margin-left: 2%;
-    width: 95%;
+    width: 650px;
     margin-top: 10px;
   }
 
