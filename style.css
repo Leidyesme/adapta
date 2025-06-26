@@ -7,6 +7,11 @@
 body{
   background-color: antiquewhite;
 }
+.Contenedor{
+  max-width: 1200px;
+  width: 100%;
+  margin:0 auto;
+}
 /* A la barra de navegación le agregamos ciertos estilos como lo son el tamaño de la letra, eliminar la línea de link y el color de la letra para que sea brown  */
 nav a{
   font-size: 40px;
@@ -14,14 +19,14 @@ nav a{
   color: brown;
   font-weight: bold;
   font-style: italic;
-  margin: 46px;
+  margin: 34px;
   text-align: center;
 }
 /* A la clase menu le asignamos estilos de color de fondo, el tamaño del ancho que será del 100% co pisición fixed y top 0 lo que nos permite fijar la barra en la parte superior sin que quede separada de esta */
 /* Esta clase es la que contiene todos los elementos de la barra de navegación */
 .menu{
   background-color: rgb(177, 202, 250);
-  width: 100%;
+  width: 1200px;
   position: fixed;
   top:0
 }
@@ -43,6 +48,9 @@ h1{
   font-weight: bold;
   background-color: rgb(242, 195, 77);
   font-style: italic;
+}
+.ini{
+  width: 100%;
 }
 /* Los elementos p de la clase ini le aplicaremos width para el ancho que tendra y los amrgin para separarlo de la izquierda y abajo */
 /* Los elementos p son los parrafos dentro de la primera sección que es como la presentación de nuestra página */
